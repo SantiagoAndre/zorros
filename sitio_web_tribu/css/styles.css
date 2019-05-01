@@ -12,7 +12,6 @@ body {
     padding: 0px;
 }
 
- /* Nuevo */
 .clearfix::after{
     content: '';
     clear: both;
@@ -28,7 +27,7 @@ body {
 }
 
 .frase {
-    margin-top: 5%;
+    margin-top: 8%;
     width: 50%;
     float: right;
     text-align: center;
@@ -42,6 +41,8 @@ body {
     width: 100%;
     display: inline-flex;
     /* display: block; */
+    text-align: center;
+    padding-top: 40px;
 }
 
 .integrante {
@@ -53,17 +54,17 @@ body {
 
 .integrante a {
     text-decoration: none;
-    
+    text-align: right;
+    color: black;
 }
 
 .integrante:hover {
-    background: lightgray;
-    
+    background: #ffcc80;
 }
 
 #foto {
     width: 50%;
-    background: white;
+    background: #ffcc80;
     border-radius: 50px;
     display: block;
     margin: auto;
@@ -75,10 +76,35 @@ body {
 
 .panel#principal {
     /*background: #dd9611;*/
-    background: #ef9d2b;
+    background:white;
 }
 
-#integrante1
-{
-    background-color: red;
+#integrante1 {
+    background: #ffcc80;
+}
+
+#integrante1 .cabecera {
+    background: #ffffb0;
+    height: 30vh;
+    width: 100%;
+    display: inline-flex;
+}
+
+
+
+#integrante1 .cabecera .nombre {
+    font-size: 30px;
+    background: white;
+}
+
+#integrante2 {
+    background: #ca9b52;
+}
+
+#integrante3 {
+    background: #ffcc80;
+}
+
+#integrante4 {
+    background: #ca9b52;
 }
