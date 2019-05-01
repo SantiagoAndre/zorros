@@ -1,4 +1,9 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 html {
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
@@ -22,13 +27,28 @@ body {
     margin-right: auto;
 }
 
+.frase {
+    margin-top: 5%;
+    width: 50%;
+    float: right;
+    text-align: center;
+    font-size: 30px;
+}
+
+.integrantes  {
+    /* background: red; */
+    padding-top: 1%;
+    /* size: 100vw; */
+    width: 100%;
+    display: inline-flex;
+    /* display: block; */
+}
+
 .integrante {
-    padding: 10px;
+    padding: 6% 8%;
     background: white;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 25px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .integrante a {
@@ -38,16 +58,8 @@ body {
 
 .integrante:hover {
     background: lightgray;
+    
 }
-
-.integrantes  {
-    /*background: white;*/
-    padding-top: 25px;
-    float: inline-end;
-    size: 100vw;
-    display: flex;
-}
-
 
 #foto {
     width: 50%;
@@ -57,12 +69,6 @@ body {
     margin: auto;
 }
 
-.frase {
-    float: right;
-    text-align: center;
-    font-size: 30px;
-}
-
 .panel {
     height: 100vh;
 }
@@ -70,4 +76,9 @@ body {
 .panel#principal {
     /*background: #dd9611;*/
     background: #ef9d2b;
+}
+
+#integrante1
+{
+    background-color: red;
 }
