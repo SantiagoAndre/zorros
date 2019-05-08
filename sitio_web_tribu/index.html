@@ -23,7 +23,9 @@
                     La tribu más parchada de todo Classcraft.
                 </p>
                 <hr>
-                <button class="btn-opinion"> Comentanos tu opinión </button>
+                <button class="btn-opinion"> 
+                    <a href="#formulario">Comentanos tu opinión </a>
+                </button>
             </div>
         </div>
 
@@ -157,6 +159,7 @@
 
 
     </div>
+
     <div class="clearfix"></div>
     <div class="panel integrante2-4" id="camilo">
         <div class="descripcion clearfix">
@@ -490,10 +493,47 @@
         </div>
     </div>
 
+    <form id="formulario">
+        <label for="nombre">Nombre: </label>
+        <input type="text" placeholder="Escribe tu nombre" id="nombre" size="40"> <br> <br>
+
+        <label for="email">Email: </label>
+        <input type="email" placeholder="Escribe tu email" id="email" size="40"> <br> <br>
+
+        <label for="sexo">Sexo: </label>
+        <input type="radio" id="sexo" name="sexo" value="hombre"> Hombre
+        <input type="radio" id="sexo" name="sexo" value="mujer"> Mujer <br> <br>
+        
+        <label for="pais">Elige el nombre de tu pais</label>
+        <select id="pais">
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="colombia">Colombia</option>
+            <option value="ecuador">Ecuador</option>
+            <option value="paraguay">Paraguay</option>
+            <option value="peru">Peru</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="venezuela">Venezuela</option>
+        </select>
+        <br><br>
+
+        <label for="ciudad">Ciudad</label>
+        <input type="text" placeholder="Escribe el nombre de tu ciudad" id="ciudad" size="40">
+
+        <label for="Sugerencia">Sugerencia</label> <br>
+        <textarea id="Sugerencia" cols="38" rows="10" placeholder="Escribe tus sugerencias"></textarea>
+        <br>
+        <input type="submit" value="enviar">
+
+    </form>
     <div class="clearfix"></div>
-    <div class="panel" id="footer">
-        Aqui va un footer bien aspero jeje
-    </div>
+
+
 </body>
+
+<footer>
+        Todos los derechos reservados, paila
+</footer>
 
 </html>
