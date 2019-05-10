@@ -100,7 +100,7 @@ body {
 .panel#principal {
     /*background: #dd9611;*/
     /* background: #ef9d2b; */
-    
+
 }
 
 /* ------------------------------------------ Tarjetas de cada integrante */
@@ -268,7 +268,7 @@ form{
     margin-top: 3%;
     margin-bottom: 3%;
     border-radius: 20px;
-}  
+}
 
 label{
     font-size:12px;
@@ -289,7 +289,7 @@ input:focus, textarea:focus{
     border: 1px solid #1668C4;
 }
 
-input[type="submit"]{ 
+input[type="submit"]{
     margin-bottom: 0;
     background: #1668C4;
     color: #fff;
