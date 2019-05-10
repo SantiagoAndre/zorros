@@ -276,7 +276,7 @@ label{
     width: 100%;
 }
 
-.nombre, .email, .ciudad{
+.email, .ciudad{
     width: 300px;
 }
 
