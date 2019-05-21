@@ -1,0 +1,63 @@
+.global
+{
+    overflow:visible;
+}
+
+.carta
+{
+    background-image: url('./img/piedras.jpg');
+}
+
+.caja 
+{
+    background-color: white;
+}
+.caja.titulo
+{
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;    
+}
+
+.caja.footer
+{
+    font-size: xx-small;
+}
+.centrado
+{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;  
+    overflow:auto;     
+}
+
+.imagen
+{    
+    width:100%;    
+}
+
+.snippet
+{
+    display: none;
+}
+
+
+@media  screen and (max-width: 600px)
+{
+    h1{        
+        color:red;
+    }
+
+    .centrado
+    {
+        margin: auto;
+        width: 100%;
+        border: 3px solid green;
+        padding: 10px;
+        text-align: center;  
+        overflow:visible;  
+        box-sizing:border-box;
+    }
+}
